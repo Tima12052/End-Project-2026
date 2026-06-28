@@ -5,13 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "server": "json-server --watch users.json --port 3001",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.18.0",
     "chartjs": "^0.3.24",
     "formik": "^2.4.9",
+    "json-server": "^1.0.0-beta.15",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-spinner-loader": "^1.1.1",
