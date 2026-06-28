@@ -1,8 +1,9 @@
-.topbar-actions {
+.toolbar-actions {
     display: flex;
     gap: 10px;
 }
-.topbar-exit {
+.toolbar-exit {
     display: flex;
     gap: 10px;
+    margin: 9999px;
 }

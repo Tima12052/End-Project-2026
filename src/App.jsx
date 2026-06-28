@@ -1,5 +1,5 @@
 import "./App.css";
-import Analythiks from "./components/Anakythics.jsx";
+import Analythiks from "./components/Analythics.jsx";
 
 function App() {
   return (
