@@ -1,0 +1,139 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.modalBg{
+    width: 100%;
+    height: 100vh;
+    padding-top: 75px;
+}
+.loginBg{
+    composes:modalBg;
+    background: 
+    url(/img/logIn-bg.png),
+    linear-gradient(
+        to right,
+        #4B1E7C 19%,
+        #302E8E
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.registerBg{
+    composes:modalBg;
+    background: 
+    url(/img/register-bg.png),
+    linear-gradient(
+        to right,
+        #4B1E7C 19%,
+        #302E8E
+    );
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.modalContainer{
+    width: 533px;
+    margin: 0 auto;
+    padding: 80px 60px;
+    border: 1px solid rgba(255,255,255, 10%);
+    border-radius: 15px;
+    font-family: "Poppins";
+    background: linear-gradient(
+        to right,
+        #4B1E7C 19%,
+        #302E8E
+    );
+    backdrop-filter: blur(50px);
+}
+.modalContainer_register{
+    padding: 40px;
+}
+.modalLogo{
+    margin: 0 0 50px;
+}
+.modalLogo h1{
+    font-size: 27px;
+    font-weight:400 ;
+    color: white;
+    text-align: center;
+}
+.modalInputsList li{
+    position: relative;
+}
+.modalLogo h1::before{
+    content: "";
+    display: block;
+    width: 35px;
+    height: 35px;
+    margin: 0 auto 10px;
+    background-image: url('/img/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.modalInput{
+    width: 409px;
+    height: 35px;
+    margin-bottom: 40px;
+    padding-left: 50px;
+    background: transparent;
+    border: none;
+    border-bottom:1px solid rgba(255,255,255, 40%) ;
+    outline: none;
+    font-size: 16px;
+    color: rgba(255,255,255, 60%);
+}
+.modalEmail{
+    background-image: url('/img/userEmail.svg');
+    background-size: 24px 24px ;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.modalPassword{
+    background-image: url('/img/userPassword.svg');
+    background-size: 24px 24px ;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.passwordProgressContainer{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 409px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(255,255,255, 60%);
+}
+.passwordProgress{
+    height: 5px;
+    border-radius: 5px;
+    background-color: #FFC727;
+    box-shadow: 0 1px 8px rgba(225, 199, 39, 0.5);
+    transition: width .2s;
+}
+.modalName{
+    background-image: url('/img/userName.svg');
+    background-size: 24px 24px ;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+.modalBtn{
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto 20px;
+    border: 2px solid #4A56E2;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: #FCFCFC;
+    color: #4A56E2;
+}
+.active{
+    border: none;
+    color: #FCFCFC;
+    background: linear-gradient(to right,
+    #FFC727 41%,
+    #9E40BA 71%,
+    #7000FF 100%);
+}
