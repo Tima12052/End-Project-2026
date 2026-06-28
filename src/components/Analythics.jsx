@@ -1,3 +1,4 @@
+// import "./Analythicssty.css"
 export default function Analythiks() {
   return (
     <div className="page">
@@ -64,15 +65,31 @@ export default function Analythiks() {
                   <option>Juni</option>
                   <option>Juli</option>
                   <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
                 </select>
               </div>
               <div className="filter">
                 <label htmlFor="year">Year</label>
                 <select id="year" name="year">
+                  <option>2012</option>
+                  <option>2013</option>
+                  <option>2014</option>
+                  <option>2015</option>
+                  <option>2016</option>
+                  <option>2017</option>
+                  <option>2018</option>
+                  <option>2019</option>
                   <option>2020</option>
                   <option>2021</option>
                   <option selected>2022</option>
                   <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                  <option>2027</option>
+                  <option>Cyberpunk 2077</option>
                 </select>
               </div>
             </div>
